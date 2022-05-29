@@ -7,7 +7,7 @@ function App() {
   const [users, setUsers] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
-  const url = 'https://randomuser.me/api/?results=1000&seed=chalkboard&inc=name,dob'
+  const url = 'https://randomuser.me/api/?results=1000&seed=chalkboard&inc=name,dob,login'
 
   useEffect(() => {
     setIsLoading(true);
