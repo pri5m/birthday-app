@@ -9,7 +9,7 @@ const UserCard = ({ user }) => {
     const fullname = name.first + ' ' + name.last;
 
     return (
-        <Link to='/details'>
+        <Link to='/details' state={{ data: { fullname, dob } }}>
             <div className='grid col-8 gap-2 px-6 py-2 my-1 bg-slate-100 rounded-md'>
                 <Avatar name={fullname} size="50" textSizeRatio={0.5} round={true} />
                 <div className="col-start-2 col-span-5">
