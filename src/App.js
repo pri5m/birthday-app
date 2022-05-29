@@ -2,35 +2,26 @@ import arraySort from "array-sort";
 import { useEffect, useState } from "react";
 import Spinner from "./components/spinner/spinner.component";
 import UserList from "./components/user-list/user-list.component";
+import { useFetch } from "./hooks/useFetch";
 
 function App() {
-  const [users, setUsers] = useState([]);
-  const [isLoading, setIsLoading] = useState(false);
-  const [error, setError] = useState(null);
   const url = 'https://randomuser.me/api/?results=1000&seed=chalkboard&inc=name,dob,login'
+  const [orderedUsers, setOrderedUsers] = useState([]);
+  const { data, error, isLoading } = useFetch(url);
 
   useEffect(() => {
-    setIsLoading(true);
-    fetch(url)
-      .then(response => response.json())
-      .then(data => {
-        const orderedUsers = arraySort(data.results, 'name.first');
-        setUsers(orderedUsers);
-        setIsLoading(false);
-      })
-      .catch(error => {
-        setIsLoading(false);
-        setError(error);
-      })
-  }, [])
+    // @ts-ignore
+    const results = data.results;
+    setOrderedUsers(arraySort(results, 'name.first'));
+  }, [data])
 
   return (
     <div className="grid place-items-center">
-      <h1 className="py-6 text-4xl">Birthdays</h1>
+      <h1 className="py-6 text-4xl" role="home-title">Birthdays</h1>
       {error && <div className='my-8'>{error}</div>}
       {isLoading
         ? <Spinner />
-        : <UserList users={users} />
+        : <UserList users={orderedUsers} />
       }
     </div>
   );
