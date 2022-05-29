@@ -1,3 +1,4 @@
+import arraySort from "array-sort";
 import { useEffect, useState } from "react";
 import UserList from "./components/user-list/user-list.component";
 
@@ -9,7 +10,8 @@ function App() {
     fetch(url)
       .then(response => response.json())
       .then(data => {
-        setUsers(data.results);
+        const orderedUsers = arraySort(data.results, 'name.first')
+        setUsers(orderedUsers);
       })
   }, [])
 
