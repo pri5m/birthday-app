@@ -10,6 +10,7 @@ Object {
       >
         <div
           class="grid col-8 gap-2 px-6 py-2 my-1 bg-slate-100 rounded-md"
+          role="card"
         >
           <div
             class=" sb-avatar"
@@ -53,6 +54,7 @@ Object {
     >
       <div
         class="grid col-8 gap-2 px-6 py-2 my-1 bg-slate-100 rounded-md"
+        role="card"
       >
         <div
           class=" sb-avatar"

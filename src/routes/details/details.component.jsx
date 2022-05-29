@@ -9,8 +9,8 @@ const Details = () => {
     return (
         <div className="grid place-items-center">
             <Avatar className="mt-10 mb-4" name={user.fullname} size="150" textSizeRatio={0.5} round={true} />
-            <p className="mt-10 text-4xl">{user.fullname}</p>
-            <p className="mt-4 mb-12 text-2xl italic">{user.dob.age} years old</p>
+            <h2 className="mt-10 text-4xl">{user.fullname}</h2>
+            <h3 className="mt-4 mb-12 text-2xl italic">{user.dob.age} years old</h3>
             <HomeButton />
         </div>
     );
