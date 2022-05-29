@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserCard component should render UserCard component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="grid col-8 gap-2 px-6 py-2 my-1 bg-slate-100 rounded-md"
+      >
+        <div
+          class=" sb-avatar"
+          style="display: inline-block; vertical-align: middle; width: 50px; height: 50px; border-radius: 100%; font-family: Helvetica, Arial, sans-serif;"
+        >
+          <div
+            class=" sb-avatar__text"
+            style="width: 50px; height: 50px; line-height: initial; text-align: center; color: rgb(255, 255, 255); border-radius: 100%;"
+            title="Lenka Webers"
+          >
+            <div
+              style="display: table; table-layout: fixed; width: 100%; height: 100%;"
+            >
+              <span
+                style="display: table-cell; vertical-align: middle; font-size: 100%; white-space: nowrap;"
+              >
+                <span />
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-start-2 col-span-5"
+        >
+          <h2
+            class="font-bold"
+          >
+            Lenka Webers
+          </h2>
+          <p>
+            29/5/2022
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="grid col-8 gap-2 px-6 py-2 my-1 bg-slate-100 rounded-md"
+    >
+      <div
+        class=" sb-avatar"
+        style="display: inline-block; vertical-align: middle; width: 50px; height: 50px; border-radius: 100%; font-family: Helvetica, Arial, sans-serif;"
+      >
+        <div
+          class=" sb-avatar__text"
+          style="width: 50px; height: 50px; line-height: initial; text-align: center; color: rgb(255, 255, 255); border-radius: 100%;"
+          title="Lenka Webers"
+        >
+          <div
+            style="display: table; table-layout: fixed; width: 100%; height: 100%;"
+          >
+            <span
+              style="display: table-cell; vertical-align: middle; font-size: 100%; white-space: nowrap;"
+            >
+              <span />
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-start-2 col-span-5"
+      >
+        <h2
+          class="font-bold"
+        >
+          Lenka Webers
+        </h2>
+        <p>
+          29/5/2022
+        </p>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`UserCard component should render UserCard component 2`] = `
+Object {
+  "dob": Object {
+    "age": 63,
+    "date": Any<Date>,
+  },
+  "name": Object {
+    "first": "Lenka",
+    "last": "Webers",
+  },
+}
+`;
