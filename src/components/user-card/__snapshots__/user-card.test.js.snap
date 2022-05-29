@@ -5,6 +5,52 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
+      <a
+        href="/details"
+      >
+        <div
+          class="grid col-8 gap-2 px-6 py-2 my-1 bg-slate-100 rounded-md"
+        >
+          <div
+            class=" sb-avatar"
+            style="display: inline-block; vertical-align: middle; width: 50px; height: 50px; border-radius: 100%; font-family: Helvetica, Arial, sans-serif;"
+          >
+            <div
+              class=" sb-avatar__text"
+              style="width: 50px; height: 50px; line-height: initial; text-align: center; color: rgb(255, 255, 255); border-radius: 100%;"
+              title="Lenka Webers"
+            >
+              <div
+                style="display: table; table-layout: fixed; width: 100%; height: 100%;"
+              >
+                <span
+                  style="display: table-cell; vertical-align: middle; font-size: 100%; white-space: nowrap;"
+                >
+                  <span />
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-start-2 col-span-5"
+          >
+            <h2
+              class="font-bold"
+            >
+              Lenka Webers
+            </h2>
+            <p>
+              29/5/2022
+            </p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </body>,
+  "container": <div>
+    <a
+      href="/details"
+    >
       <div
         class="grid col-8 gap-2 px-6 py-2 my-1 bg-slate-100 rounded-md"
       >
@@ -41,45 +87,7 @@ Object {
           </p>
         </div>
       </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="grid col-8 gap-2 px-6 py-2 my-1 bg-slate-100 rounded-md"
-    >
-      <div
-        class=" sb-avatar"
-        style="display: inline-block; vertical-align: middle; width: 50px; height: 50px; border-radius: 100%; font-family: Helvetica, Arial, sans-serif;"
-      >
-        <div
-          class=" sb-avatar__text"
-          style="width: 50px; height: 50px; line-height: initial; text-align: center; color: rgb(255, 255, 255); border-radius: 100%;"
-          title="Lenka Webers"
-        >
-          <div
-            style="display: table; table-layout: fixed; width: 100%; height: 100%;"
-          >
-            <span
-              style="display: table-cell; vertical-align: middle; font-size: 100%; white-space: nowrap;"
-            >
-              <span />
-            </span>
-          </div>
-        </div>
-      </div>
-      <div
-        class="col-start-2 col-span-5"
-      >
-        <h2
-          class="font-bold"
-        >
-          Lenka Webers
-        </h2>
-        <p>
-          29/5/2022
-        </p>
-      </div>
-    </div>
+    </a>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

@@ -1,4 +1,5 @@
 import { render, screen } from '@testing-library/react';
+import { BrowserRouter } from 'react-router-dom';
 import UserCard from './user-card.component';
 
 const mockUser = {
@@ -15,7 +16,7 @@ describe('UserCard component', () => {
     let wrapper;
 
     beforeEach(() => {
-        wrapper = render(<UserCard user={mockUser} />);
+        wrapper = render(<BrowserRouter><UserCard user={mockUser} /></BrowserRouter>);
     })
     it('should render UserCard component', () => {
         expect(wrapper).toMatchSnapshot();
